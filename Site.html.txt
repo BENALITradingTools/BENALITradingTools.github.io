@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>متجري الرقمي</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 25px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product p {
+            color: #777;
+            font-size: 15px;
+        }
+
+        .price {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #444;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #3498db;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .btn:hover {
+            background: #217dbb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>متجري الرقمي</header>
+
+    <div class="container">
+
+        <!-- المنتج الأول -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Product 1" />
+            <h3>اسم المنتج الأول</h3>
+            <p>وصف قصير عن المنتج الأول.</p>
+            <div class="price">10$</div>
+
+            <!-- زر PayPal -->
+            <a class="btn" href="https://www.paypal.com/pay?business=YOUR_PAYPAL_EMAIL&amount=10&item_name=المنتج_الأول" target="_blank">
+                شراء الآن
+            </a>
+        </div>
+
+        <!-- المنتج الثاني -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Product 2" />
+            <h3>اسم المنتج الثاني</h3>
+            <p>وصف قصير عن المنتج الثاني.</p>
+            <div class="price">15$</div>
+
+            <a class="btn" href="https://www.paypal.com/pay?business=YOUR_PAYPAL_EMAIL&amount=15&item_name=المنتج_الثاني" target="_blank">
+                شراء الآن
+            </a>
+        </div>
+
+        <!-- المنتج الثالث -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Product 3" />
+            <h3>اسم المنتج الثالث</h3>
+            <p>وصف قصير عن المنتج الثالث.</p>
+            <div class="price">20$</div>
+
+            <a class="btn" href="https://www.paypal.com/pay?business=YOUR_PAYPAL_EMAIL&amount=20&item_name=المنتج_الثالث" target="_blank">
+                شراء الآن
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
